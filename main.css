@@ -1,0 +1,120 @@
+*{
+    padding:0%;
+    margin: 0;
+    background-color: rgb(221, 220, 170);
+
+}
+
+.todos{
+   display:flexbox;
+   margin: 2rem 2rem;
+   align-items: center;
+   text-align: center;
+   margin-bottom: 30px;
+   width: 450px;
+   padding: 20px;
+   box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+   border-radius:5px;
+  justify-content: center;
+ 
+}
+.list-head{
+    padding:10px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+}
+.inputtext{
+ justify-content: center;
+ padding:10px;
+ border-radius: 5px;
+ border: 1px solid #ccc;
+ font-size: 16px;
+ outline: none;
+ align-items: center;
+ 
+}
+h1{
+
+   align-items: center;
+   text-align: center;
+}
+button{
+    width: 50px;
+    background-color: rgb(94, 39, 0);
+    border: none;
+    border-radius: 5px ;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size:16px;
+    color: #fff;
+    margin:2px;
+    cursor: pointer ;
+
+}
+button:hover{
+    background-color: rgb(54, 52, 52);
+}
+button:hover::after ::hover{
+    background-color: rgb(252, 252, 252);
+}
+.addList{
+ border: none;
+ border-radius: 5px;
+ background-color: rgb(94, 39, 0); 
+ outline: none;
+ font-size: 16px;
+ color: #fff;
+ cursor: pointer;
+ opacity: .6;
+ pointer-events: none;
+}
+.addList:hover{ 
+    color: rgb(83, 80, 80);
+}
+.tasks{
+    width:100%;
+    margin-top: 30px;
+}
+.item{
+    padding:10px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #111;
+    letter-spacing: 1px;
+}
+.item.completed p{
+    text-decoration: line-through;
+    color:#111;
+}
+.item-btn{
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    
+}
+.item-btn1 {
+    color: rgb(17, 17, 19);
+    cursor:pointer;
+    
+}
+.fa-solid fa-pencil{
+    margin-right: 2rem;
+}
